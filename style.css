@@ -1,3 +1,5 @@
+@import url("https://fonts#googleapis#com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -7,4 +9,159 @@ html,
 body {
   width: 100%;
   height: 100%;
+  font-family: "Kanit", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(238, 233, 233);
+}
+main {
+  width: 500px;
+  min-height: 600px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 15px;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.45);
+}
+h1 {
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+h2 {
+  font-weight: 500;
+}
+h3 {
+  color: gray;
+  font-weight: 400;
+}
+h4 {
+  color: gray;
+  font-weight: 400;
+}
+h5 {
+  font-size: 20px;
+  font-weight: 500;
+}
+#top {
+  margin-bottom: 20px;
+}
+#fancy {
+  display: flex;
+}
+#fancy-item {
+  background-color: rgb(173, 233, 173);
+  height: 115px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 230px;
+}
+#left-fancy {
+  margin-right: 10px;
+}
+#clock {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.fa-clock {
+  color: rgb(173, 233, 173);
+  font-size: 25px;
+  font-weight: 400;
+}
+#tasks {
+  margin-bottom: 20px;
+}
+#check-box {
+  margin-right: 10px;
+}
+#task-window {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(238, 233, 233);
+  border-radius: 40px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+#middle {
+  display: flex;
+  align-items: center;
+}
+.fa-circle {
+  font-size: 25px;
+  color: rgb(19, 170, 230);
+}
+.fa-calendar-days {
+  font-weight: 400;
+  color: gray;
+}
+.fa-stopwatch {
+  color: gray;
+}
+#checkbox {
+  margin-right: 15px;
+}
+#task-window-structure {
+  display: flex;
+}
+#time-section {
+  display: flex;
+  justify-content: space-between;
+}
+#main-content {
+  display: flex;
+}
+#top-section {
+  display: flex;
+  margin-bottom: 8px;
+}
+#right {
+  display: flex;
+  align-items: center;
+}
+#left {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.fa-plus {
+  color: red;
+  transform: rotate(45deg);
+  font-size: 30px;
+}
+.icon {
+  margin-right: 6px;
+}
+#input-task {
+  padding: 10px 90px 10px 10px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+#input-task:focus {
+  border-color: rgb(173, 233, 173);
+  outline: none;
+}
+.fa-check {
+  color: rgb(173, 233, 173);
+  font-size: 28px;
+  margin-right: 15px;
+}
+#write-task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+#input-right {
+  display: flex;
+  align-items: center;
 }
