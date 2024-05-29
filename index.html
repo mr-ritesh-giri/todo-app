@@ -20,7 +20,7 @@
             </div>
             <div id="time-section">
               <h2 id="total-tasks">Today</h2>
-              <h2 id="total-tasks-no">14</h2>
+              <h2 id="total-tasks-no">0</h2>
             </div>
           </div>
         </div>
@@ -31,7 +31,7 @@
             </div>
             <div id="time-section">
               <h2 id="task-completed">Completed</h2>
-              <h2 id="task-completed-no">14</h2>
+              <h2 id="task-completed-no">0</h2>
             </div>
           </div>
         </div>
@@ -49,38 +49,14 @@
         </div>
         <div id="input-right">
           <div id="correct">
-            <i class="fa-sharp fa-solid fa-check"></i>
+            <i class="fa-sharp fa-solid fa-check" onclick="newTodo()"></i>
           </div>
           <div id="cross">
-            <i class="fa-solid fa-plus cancel-input"></i>
+            <i class="fa-solid fa-plus cancel-input" onclick="clearInput()"></i>
           </div>
         </div>
       </div>
-      <div id="task-window">
-        <div id="middle">
-          <div id="checkbox">
-            <i class="fa-regular fa-circle icon"></i>
-          </div>
-          <div id="main-tasks">
-            <div id="top-section">
-              <div id="left">
-                <i class="fa-regular fa-calendar-days icon"></i>
-                <h4>Today</h4>
-              </div>
-              <div id="right">
-                <i class="fa-solid fa-stopwatch icon"></i>
-                <h4>4:50 PM</h4>
-              </div>
-            </div>
-            <div id="bottom-section">
-              <div id="todo"><h5>Project retrospective.</h5></div>
-            </div>
-          </div>
-        </div>
-        <div id="delete">
-          <i class="fa-solid fa-plus delete-todo"></i>
-        </div>
-      </div>
+      <div id="task-container"></div>
     </main>
     <script src="app.js"></script>
     <script
