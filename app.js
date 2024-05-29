@@ -36,7 +36,7 @@ function newTodo() {
       </div>
     </div>
     <div id="todo-right-section">
-      <div id="delete" onclick="completed()">
+      <div id="delete" onclick="completed(this)">
         <i class="fa-solid fa-check delete-todo"></i>
       </div>
       <div id="delete" onclick="deleteTodo(this)">
