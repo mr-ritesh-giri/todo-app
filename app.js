@@ -1,3 +1,14 @@
+function username() {
+  const username = prompt("Your name...");
+  const showname = document.getElementById("username");
+
+  if (username === "" || username === null) {
+    showname.innerHTML = "Your Name,";
+  } else {
+    showname.innerHTML = `Hello ${username},`;
+  }
+}
+username();
 function newTodo() {
   const todoInput = document.getElementById("input-task").value.trim();
   if (todoInput === "") {
